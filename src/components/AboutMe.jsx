@@ -1,5 +1,8 @@
+import { AboutMeMobile } from "./AboutMeMobile/AboutMeMobile";
+
 const AboutMe = () => {
     return (
+        <>
         <section className="about-me-container" id="about-me">
             <div className="img-container">
                 <img src="/desk-teacher.png" alt="Teacher"/>
@@ -10,7 +13,9 @@ const AboutMe = () => {
                 <p>En mis clases cultivamos el cuerpo y la mente a través de posturas, las cuales se trabajan de forma evolutiva de acuerdo a las posibilidades de cada alumno, haciendo énfasis en el movimiento consciente, la fuerza vital y la respiración, lo que va creando una transformación interior.</p>
                 <p>Mi misión es compartirte herramientas de vida consciente que te acompañen en tu camino de despertar a una vida más plena, verdadera y feliz.</p>
             </div>
-        </section>        
+        </section>      
+        <AboutMeMobile/>
+        </>  
     )
 }
 

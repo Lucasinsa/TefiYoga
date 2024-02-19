@@ -1,0 +1,72 @@
+@media (max-width: 992px) {
+    .header{
+        margin-top: 60px;
+    }
+    .header-text-container{
+        height: calc(100vh - 60px);
+        width: 100%;
+        background-image: url(../../../public/desk-welcome-bg.png);
+        background-position: center center;
+        background-repeat: no-repeat;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        background-size: cover;
+    }
+    .header-text{
+        margin-bottom: 55px;
+    }
+    .header-title{
+        font-size: 24px;
+        font-weight: 600;
+        color: #4B6565;
+    }
+    .header-subtitle{
+        color: #4B6565;
+        font-weight: 400;
+        font-size: 16px;
+    }
+    
+    .header-cta-container{
+        height: 300px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .cta-button-container{
+        margin-top: 20px;
+    }
+    .cta-button{
+        background-color: #4B6565;
+        border-radius: 20px;
+        width: 320px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-decoration: none;
+        height: 45px;
+        outline-width: 0;
+        border: none;
+        color: #FFFFFF;
+        font-size: 14px;
+        font-weight: 400;
+        box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25)
+    }
+    .testimony-container{
+        margin-top: 55px;
+    }
+    .testimony{
+        font-family: 'Lemonada', cursive;
+        font-size: 14px;
+        font-weight: 300;
+        color: #474444;
+    }
+    
+}
+@media (min-width: 992px){
+    .header{
+        display: none;
+    }
+}

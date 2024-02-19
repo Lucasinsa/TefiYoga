@@ -5,6 +5,7 @@ body {
     font-family: 'Montserrat', sans-serif;
     font-size: 16px;
     color: #474444 !important;
+    scroll-behavior: smooth;
 }
 
 /*----------------------------------*/
@@ -161,6 +162,12 @@ body {
     font-size: 18px;
     opacity: 0.6;
 }
+/* <= 992px (md breakpoint) */
+@media (max-width: 992px){
+.about-me-container{
+    display: none;
+}
+}
 
 /*--------------------------------*/
 /* MY CLASSES                     */
@@ -178,7 +185,7 @@ body {
     font-size: 24px;
     font-weight: 500;
     color: #4B6565;
-    margin-bottom: 15px !important;
+    margin-bottom: 15px;
     margin-right: 55px;
 }
 
@@ -194,9 +201,38 @@ body {
     display: flex;
     flex-wrap: wrap;
 }
+/* <= 992px  */
+@media (max-width: 992px){
+    .my-classes-container{
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .my-classes-container h3, .my-classes-container p, .cards-container {
+        padding: 0;
+        margin: 0;
+    }
+    .my-classes-title{
+        font-weight: 500;
+        font-size: 20px !important;
+        margin-top: 30px !important;
+    }
+    .my-classes-paragraph{
+        margin-top: 10px !important;
+        font-size: 16px !important;
+    }
+    .cards-container{
+        margin-top: 40px;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        row-gap: 30px;
+    }
+}
 
 /*-- <= 1349px --*/
-@media (max-width: 1349px) {
+@media screen and (min-width: 992px) and (max-width: 1349px) {
     .my-classes-container h3 , .my-classes-container > p {
         padding: 0;
         margin: 0 200px;
@@ -311,6 +347,45 @@ body {
     margin: 0;
     padding-left: 10px;
 }
+/* CARD <= 992px */
+@media (max-width: 992px){
+.custom-card{
+    height: 500px;
+    width: 320px;
+    margin: 0;
+}
+.card-img{
+    height: 220px;
+    width: 100%;
+}
+.card-icon-circle{
+    top: -48px;
+    height: 48px;
+    width: 48px;
+}
+.card-icon{
+    top: -54px;
+}
+.hand-icon,.hands-up-icon{
+    top: -38px;
+}
+.figure-icon{
+    top: -41px;
+    right: 19px;
+}
+
+.card-title{
+    font-size: 20px !important;
+    color: #474444;
+    font-weight: 500 !important;
+}
+.card-description{
+    font-size: 16px !important;
+    font-weight: 300 !important;
+    color: #474444;
+}
+}
+
 
 /*--------------------------------*/
 /* CARD ALERT                     */
@@ -349,7 +424,58 @@ body {
     padding-bottom: 14px;
     padding-left: 10px;
 }
+/* CARD ALERT <= 992px */
+@media (max-width: 992px){
+    .custom-swal-popup{
+        width: 450px !important;
+        height: 300px !important;
+        padding: 12px 12px !important;
+    }
 
+    .custom-swal-title{
+        font-weight: 500;
+        font-size: 20px;
+        text-align: center;
+        padding: 12px 12px;
+        margin: 0;
+    }
+    .swal2-html-container{
+        padding: 12px 12px !important;
+        margin: 0 !important;
+    }
+    .swal2-html-container p{
+        text-align: center !important;
+        font-size: 16px !important;
+        font-weight: 300 !important;
+        padding: 0 !important;
+        margin: 0 !important;
+    }
+    .swal2-actions{
+        margin: 0;
+    }
+}
+/* CARD ALERT <=448px */
+@media (max-width: 448px){
+    .custom-swal-popup{
+        height: 240px !important;
+        width: 320px !important;
+    }
+    .swal2-html-container{
+        overflow: hidden !important;
+    }
+    .custom-swal-title{
+      text-align: left;
+    }
+    .swal2-html-container p{
+        text-align: left !important;
+    }
+    .custom-swal-button{
+        height: 45px;
+        width: 270px;
+        font-size: 14px;
+        font-weight: 400;
+    }
+}
 /*--------------------------------*/
 /* CONTACT                        */
 /*--------------------------------*/
@@ -384,6 +510,37 @@ body {
     padding-bottom: 90px;
 }
 
+/* Contact <=992px */
+@media (max-width: 992px){
+    .contact-container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 40px;
+    }
+    
+    .contact-container h3{
+        font-size: 20px;
+        padding: 0;
+        text-align: left;
+    }
+    .contact-p-container{
+        width: 100%;
+    }
+    .contact-container p{
+        text-align: left;
+        padding: 0;
+        font-size: 16px;
+        font-weight: 300;
+    }
+    .button-container{
+        padding: 0;
+    }
+    .whatsapp-button{
+        width: 320px;
+        height: 45px;
+    }
+}
 /*--------------------------------*/
 /* FOOTER                         */
 /*--------------------------------*/
@@ -466,3 +623,20 @@ footer a:hover {
 }
 
 
+/* <= 992px (md breakpoint) */
+@media (max-width: 992px){
+    .custom-navbar{
+        display: none;
+    }
+    .presentation-container{
+        display: none;
+    }
+    br{
+        display: block;
+    }
+}
+@media (min-width: 992px){
+    br{
+        display: none;
+    }
+}

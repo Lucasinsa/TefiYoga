@@ -1,5 +1,8 @@
+import { PresentationMobile } from "./PresentationMobile/PresentationMobile";
+
 const Presentation = () => {
     return (
+        <>
         <main className="presentation-container" id="presentation">
             <div className="presentation">
                 <img src="/blank-vector.png" alt="Blank vector" className="img-presentation"/>
@@ -13,6 +16,8 @@ const Presentation = () => {
                 </a>
             </div>
         </main>
+        <PresentationMobile/>
+        </>
     )
 }
 

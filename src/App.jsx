@@ -10,7 +10,7 @@ function App() {
     <>
       <NavBar />
       <Presentation />
-      <AboutMe />
+      <AboutMe/>
       <MyClasses />
       <Contact />
       <Footer />

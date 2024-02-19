@@ -1,6 +1,9 @@
+import { FooterMobile } from "./FooterMobile/FooterMobile";
+
 const Footer = () =>{
     return (
-        <footer>
+        <>
+        <footer className="footer">
             <a href="#presentation">
                 <img src="/desk-logo.png" alt="Logo" className='custom-desk-logo'/>
             </a>
@@ -17,6 +20,8 @@ const Footer = () =>{
                 <h4>Redes sociales</h4>
             </div>
         </footer>
+        <FooterMobile/>
+        </>
     )
 }
 
