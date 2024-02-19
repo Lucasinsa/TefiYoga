@@ -37,17 +37,17 @@ export const NavMobile = () => {
       >
         <ul className="nav-menu-list-container">
           <li className="nav-menu-list">
-            <a className="nav-menu-link" href="">
+            <a className="nav-menu-link" href="#my-classes">
               Sobre mí
             </a>
           </li>
           <li className="nav-menu-list">
-            <a className="nav-menu-link" href="">
+            <a className="nav-menu-link" href="#about-me">
               Mis clases
             </a>
           </li>
           <li className="nav-menu-list">
-            <a className="nav-menu-link" href="">
+            <a className="nav-menu-link" href="#contact">
               Contacto
             </a>
           </li>

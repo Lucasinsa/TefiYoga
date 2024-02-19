@@ -1,13 +1,13 @@
 import "./aboutMeMobile.css"
 export const AboutMeMobile = () => {
   return (
-    <main className="main">
+    <main className="main" id="about-me">
       <section className="about-container">
         <div className="about-img-container">
           <img
             className="about-img"
             src="/mob-teacher.png"
-            alt=""
+            alt="Teacher"
           />
         </div>
         <div className="about-text-container">
@@ -32,7 +32,6 @@ export const AboutMeMobile = () => {
           </p>
         </div>
       </section>
-      <section></section>
     </main>
   );
 };

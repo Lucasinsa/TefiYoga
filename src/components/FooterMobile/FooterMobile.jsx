@@ -8,8 +8,8 @@ export const FooterMobile = () => {
         </div>
         <div className="footer-mob-social-container">
             <div className="footer-mob-social-icon-container">
-                <img className="footer-mob-social-icon" src="/whatsapp-logo.png" alt="Whatsapp Logo" />
-                <img className="footer-mob-social-icon" src="/instagram-logo.png" alt="Instagram Logo" />
+                <img className="footer-mob-social-icon" src="/whatsapp-logo.png" alt="Whatsapp" />
+                <img className="footer-mob-social-icon" src="/instagram-logo.png" alt="Instagram" />
             </div>
             <div>
                 <p className="footer-mob-social-text">Redes sociales</p>
