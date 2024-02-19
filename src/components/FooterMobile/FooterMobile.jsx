@@ -4,12 +4,12 @@ export const FooterMobile = () => {
   return (
     <footer className="footer-mobile">
         <div className="footer-mob-logo-container">
-            <img className="footer-mob-logo" src="../../../public/mob-logo.png" alt="Logo" />
+            <img className="footer-mob-logo" src="/mob-logo.png" alt="Logo" />
         </div>
         <div className="footer-mob-social-container">
             <div className="footer-mob-social-icon-container">
-                <img className="footer-mob-social-icon" src="../../../public/whatsapp-logo.png" alt="Whatsapp Logo" />
-                <img className="footer-mob-social-icon" src="../../../public/instagram-logo.png" alt="Instagram Logo" />
+                <img className="footer-mob-social-icon" src="/whatsapp-logo.png" alt="Whatsapp Logo" />
+                <img className="footer-mob-social-icon" src="/instagram-logo.png" alt="Instagram Logo" />
             </div>
             <div>
                 <p className="footer-mob-social-text">Redes sociales</p>

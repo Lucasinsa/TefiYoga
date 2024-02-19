@@ -6,7 +6,7 @@ export const AboutMeMobile = () => {
         <div className="about-img-container">
           <img
             className="about-img"
-            src="../../../public/mob-teacher.png"
+            src="/mob-teacher.png"
             alt=""
           />
         </div>

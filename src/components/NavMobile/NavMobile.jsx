@@ -15,7 +15,7 @@ export const NavMobile = () => {
         <div className="nav-logo-container">
           <img
             className="nav-logo"
-            src="../../public/mob-logo.png"
+            src="/mob-logo.png"
             alt="Logo"
           />
         </div>
