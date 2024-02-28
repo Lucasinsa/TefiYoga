@@ -1,7 +1,7 @@
 import "./aboutMeMobile.css"
 export const AboutMeMobile = () => {
   return (
-    <main className="main" id="about-me">
+    <main className="main" id="about">
       <section className="about-container">
         <div className="about-img-container">
           <img

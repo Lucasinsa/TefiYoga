@@ -17,7 +17,7 @@ export const FooterMobile = () => {
         </div>
         <div className="footer-navigation-container">
             <ul className="footer-navigation-list-container">
-                <li className="footer-navigation-list"><a className="footer-navigation-link" href="#about-me">Sobre mi</a></li>
+                <li className="footer-navigation-list"><a className="footer-navigation-link" href="#about">Sobre mi</a></li>
                 <li className="footer-navigation-list"><a className="footer-navigation-link" href="#my-classes">Mis clases</a></li>
                 <li className="footer-navigation-list"><a className="footer-navigation-link" href="#contact">Contacto</a></li>
             </ul>

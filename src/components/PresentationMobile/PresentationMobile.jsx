@@ -19,6 +19,7 @@ export const PresentationMobile = () => {
                 </p>
             </div>
         </div>
+        <img className="mob-gradient-bg" src="/mob-gradient.svg" alt="Gradient Background" />
     </header>
   )
 }

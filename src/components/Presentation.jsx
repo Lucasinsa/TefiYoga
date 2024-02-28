@@ -5,7 +5,7 @@ const Presentation = () => {
         <>
         <main className="presentation-container" id="presentation">
             <div className="presentation">
-                <img src="/blank-vector.png" alt="Blank vector" className="img-presentation"/>
+                <img src="/blank-vector.svg" alt="Blank vector" className="img-presentation"/>
             </div>
             <div className="presentation-text">
                 <h1>¡Bienvenido a TefiYoga!</h1>

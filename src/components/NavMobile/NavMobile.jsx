@@ -37,12 +37,12 @@ export const NavMobile = () => {
       >
         <ul className="nav-menu-list-container">
           <li className="nav-menu-list">
-            <a className="nav-menu-link" href="#my-classes">
+            <a className="nav-menu-link" href="#about">
               Sobre mí
             </a>
           </li>
           <li className="nav-menu-list">
-            <a className="nav-menu-link" href="#about-me">
+            <a className="nav-menu-link" href="#my-classes">
               Mis clases
             </a>
           </li>
