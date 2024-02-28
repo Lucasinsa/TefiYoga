@@ -1,7 +1,9 @@
 import "./aboutMeMobile.css"
 export const AboutMeMobile = () => {
   return (
-    <main className="main" id="about">
+    <>
+
+    <main className="main"  id="about">
       <section className="about-container">
         <div className="about-img-container">
           <img
@@ -33,5 +35,6 @@ export const AboutMeMobile = () => {
         </div>
       </section>
     </main>
+    </>
   );
 };

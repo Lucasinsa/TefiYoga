@@ -268,6 +268,9 @@ body {
     transition: transform 0.3s ease;
     position: relative;
 }
+.card-img{
+    max-height: 271px;
+}
 
 .icon-container-absolute {
     position: absolute;
@@ -327,7 +330,22 @@ body {
 .custom-card-info img {
     height: 20px;
 }
-
+.days-icon{
+    height: 16px;
+    width: 16px;
+    object-fit: contain;
+}
+.horary-icon{
+    height: 16px;
+    width: 16px;
+    object-fit: contain;
+}
+.place-icon{
+    height: 16px;
+    width: 18px;
+    object-fit: contain;
+    place-self: start;
+}
 .card-container-info {
     padding-left: 25px;
     padding-top: 40px;
@@ -352,12 +370,18 @@ body {
     margin: 0;
     padding-left: 10px;
 }
+.card-description{
+    font-size: 14px;
+    font-weight: 300;
+}
 /* CARD <= 992px */
 @media (max-width: 992px){
 .custom-card{
-    height: 500px;
     width: 320px;
     margin: 0;
+}
+.card-container-info{
+    padding: 0 25px 0 25px;
 }
 .card-img{
     height: 220px;
@@ -372,16 +396,22 @@ body {
     top: -54px;
 }
 .hand-icon,.hands-up-icon{
+    top: -35px;
+    object-fit: contain;
+}
+.hands-up-icon{
     top: -38px;
 }
 .figure-icon{
     top: -41px;
     right: 19px;
+    object-fit: contain;
 }
 
 .card-title{
     font-size: 20px !important;
     color: #474444;
+    margin-top: 11px;
     font-weight: 500 !important;
 }
 .card-description{

@@ -5,10 +5,21 @@ export const NavMobile = () => {
   const [menu, setMenu] = useState(false);
   const handleMenu = () => {
     setMenu(!menu);
-
   };
-  
-
+  function scrollToAboutSection() {
+    const aboutSection = document.getElementById("about");
+    const aboutSectionPosition = aboutSection.offsetTop;
+    const offset = 20
+    const scrollToPosition = aboutSectionPosition - offset;
+    window.scrollTo({
+        top: scrollToPosition,
+        behavior: "smooth"
+    });
+}
+  const handleClick = ()=>{
+    scrollToAboutSection()
+    handleMenu()
+  }
   return (
     <>
       <nav className="nav">
@@ -37,17 +48,17 @@ export const NavMobile = () => {
       >
         <ul className="nav-menu-list-container">
           <li className="nav-menu-list">
-            <a className="nav-menu-link" href="#about">
+            <a onClick={handleClick} className="nav-menu-link">
               Sobre mí
             </a>
           </li>
           <li className="nav-menu-list">
-            <a className="nav-menu-link" href="#my-classes">
+            <a onClick={handleMenu} className="nav-menu-link" href="#my-classes">
               Mis clases
             </a>
           </li>
           <li className="nav-menu-list">
-            <a className="nav-menu-link" href="#contact">
+            <a onClick={handleMenu} className="nav-menu-link" href="#contact">
               Contacto
             </a>
           </li>
