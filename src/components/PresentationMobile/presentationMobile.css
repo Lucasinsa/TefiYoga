@@ -6,8 +6,8 @@
     .header-text-container{
         height: calc(100vh - 60px);
         width: 100%;
-        background-image: url(../../../public/desk-welcome-bg.png);
-        background-position: center center;
+        background-image: url(../../../public/mob-welcome-bg.png);
+        background-position: center;
         background-repeat: no-repeat;
         display: flex;
         justify-content: center;
@@ -56,16 +56,17 @@
         outline-width: 0;
         border: none;
         color: #FFFFFF;
-        font-size: 14px;
+        font-size: 1.1rem;
         font-weight: 400;
         box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25)
     }
     .testimony-container{
         margin-top: 55px;
+        max-width: 90%;
     }
     .testimony{
         font-family: 'Lemonada', cursive;
-        font-size: 14px;
+        font-size: 1.05rem;
         font-weight: 300;
         color: #474444;
     }
@@ -76,6 +77,11 @@
     top: 0px;
     left: 0;
     width: 100%;
+}
+@media (min-width: 512px){
+    .header-text-container{
+        background-image: url(../../../public/desk-welcome-bg.png);
+    }
 }
 @media (min-width: 992px){
     .header{

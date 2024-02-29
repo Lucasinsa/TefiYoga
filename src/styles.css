@@ -220,12 +220,12 @@ body {
     }
     .my-classes-title{
         font-weight: 500;
-        font-size: 20px !important;
+        font-size: 1.2rem !important;
         margin-top: 30px !important;
     }
     .my-classes-paragraph{
         margin-top: 10px !important;
-        font-size: 16px !important;
+        font-size: 1.05rem !important;
     }
     .cards-container{
         margin-top: 40px;
@@ -374,6 +374,12 @@ body {
     font-size: 14px;
     font-weight: 300;
 }
+@media (min-width: 1450px){
+    .cards-container{
+        justify-content: space-around;
+    }
+}
+
 /* CARD <= 992px */
 @media (max-width: 992px){
 .custom-card{
@@ -420,9 +426,15 @@ body {
     color: #474444;
 }
 }
-@media (min-width: 1450px){
-    .cards-container{
-        justify-content: space-around;
+
+@media screen and (min-width: 350px) and (max-width: 480px){
+    .custom-card{
+        width: 340px;
+    }
+}
+@media screen and (min-width: 200px) and (max-width: 350px) {
+    .custom-card{
+        width: 90%;
     }
 }
 
@@ -559,7 +571,7 @@ body {
     }
     
     .contact-container h3{
-        font-size: 20px;
+        font-size: 1.2rem;
         padding: 0;
         text-align: left;
     }
@@ -569,7 +581,7 @@ body {
     .contact-container p{
         text-align: left;
         padding: 0;
-        font-size: 16px;
+        font-size: 1.05rem;
         font-weight: 300;
     }
     .button-container{
@@ -577,6 +589,7 @@ body {
     }
     .whatsapp-button{
         width: 320px;
+        font-size: 1.1rem;
         height: 45px;
     }
 }

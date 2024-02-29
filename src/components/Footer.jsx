@@ -14,8 +14,8 @@ const Footer = () =>{
             </div>
             <div className="social-container">
                 <div className="logos-container">
-                    <a href="https://wa.me/5491153191175" target="_blank" rel="noopener noreferrer"><img src="/whatsapp-logo.png" alt="Whatsapp logo"/></a>
-                    <a href="https://www.instagram.com/tefi.yoga/" target="_blank"><img src="/instagram-logo.png" alt="Instagram logo"/></a>
+                    <a href="https://wa.me/5491153191175" target="_blank" rel="noopener noreferrer"><img src="/whatsapp-logo.svg" alt="Whatsapp logo"/></a>
+                    <a href="https://www.instagram.com/tefi.yoga/" target="_blank"><img src="/instagram-logo.svg" alt="Instagram logo"/></a>
                 </div>
                 <h4>Redes sociales</h4>
             </div>

@@ -1,19 +1,15 @@
 @media (max-width: 992px){
 .main{
+    margin-top: 25px;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
 .about-img{
-    height: 335px;
-    width: 300px;
-    object-fit: contain;
+    width: 90%;
+    object-fit: cover;
 }
-
-
-
-
 
 .about-text-container{
     margin-top: 30px;
@@ -21,11 +17,11 @@
 .about-text-title{
     color: #4B6565;
     font-weight: 500;
-    font-size: 20px;
+    font-size: 1.2rem;
 }
 .about-text-paragraph{
     color: #474444;
-    font-size: 16px;
+    font-size: 1.05rem;
     font-weight: 300;
 }
 }
