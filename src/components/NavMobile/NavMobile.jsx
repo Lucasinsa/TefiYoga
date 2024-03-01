@@ -9,15 +9,29 @@ export const NavMobile = () => {
   function scrollToAboutSection() {
     const aboutSection = document.getElementById("about");
     const aboutSectionPosition = aboutSection.offsetTop;
-    const offset = 65
+    const offset = 55
     const scrollToPosition = aboutSectionPosition - offset;
     window.scrollTo({
         top: scrollToPosition,
         behavior: "smooth"
     });
 }
-  const handleClick = ()=>{
+function scrollToClassesSection() {
+  const classesSection = document.getElementById("my-classes");
+  const classesSectionPosition = classesSection.offsetTop;
+  const offset = 60
+  const scrollToPosition = classesSectionPosition - offset;
+  window.scrollTo({
+      top: scrollToPosition,
+      behavior: "smooth"
+  });
+}
+  const handleClickAbout = ()=>{
     scrollToAboutSection()
+    handleMenu()
+  }
+  const handleClickClasses = ()=>{
+    scrollToClassesSection()
     handleMenu()
   }
   return (
@@ -42,18 +56,19 @@ export const NavMobile = () => {
             <span className="line-3"></span>
           </div>
         </div>
+
       </nav>
       <div
         className={`nav-menu-content ${menu ? "nav-menu-content-toggle" : ""}` }
       >
         <ul className="nav-menu-list-container">
           <li className="nav-menu-list">
-            <a onClick={handleClick} className="nav-menu-link">
+            <a onClick={handleClickAbout} className="nav-menu-link">
               Sobre mí
             </a>
           </li>
           <li className="nav-menu-list">
-            <a onClick={handleMenu} className="nav-menu-link" href="#my-classes">
+            <a onClick={handleClickClasses} className="nav-menu-link">
               Mis clases
             </a>
           </li>

@@ -2,7 +2,7 @@ import "./presentationMobile.css"
 
 export const PresentationMobile = () => {
   return (
-    <header className="header">
+    <header className="header" id="home">
         <div className="header-text-container">
             <div className="header-text">
                 <h1 className="header-title">¡Bienvenido a TefiYoga!</h1>

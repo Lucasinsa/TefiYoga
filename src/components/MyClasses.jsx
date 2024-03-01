@@ -7,8 +7,8 @@ const MyClasses = () => {
         <h3 className="my-classes-title">Unite a mis clases</h3>
         <p className="my-classes-paragraph">
           Despertá al maestro que habita dentro
-          <br /> de vos y descubrí tu esencia, aquello
-          <br /> que realmente viniste a ser.
+          de vos y descubrí tu esencia, aquello
+          que realmente viniste a ser.
         </p>
       </div>
 

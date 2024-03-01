@@ -225,7 +225,7 @@ body {
     }
     .my-classes-paragraph{
         margin-top: 10px !important;
-        font-size: 1.05rem !important;
+        font-size: 1.1rem !important;
     }
     .cards-container{
         margin-top: 40px;
@@ -253,7 +253,17 @@ body {
         margin-top: 30px;
     }
 }
+@media screen and (min-width: 380px) and (max-width: 992px){
 
+    .my-classes-container h3{
+        max-width: 359px;
+        font-size: 1.2rem !important;
+    }
+    .my-classes-container p{
+        max-width: 359px;
+        font-size: 1.1rem !important;
+    }
+}
 /*--------------------------------*/
 /* CARD                           */
 /*--------------------------------*/
@@ -386,12 +396,14 @@ body {
     width: 320px;
     margin: 0;
 }
+
 .card-container-info{
     padding: 0 25px 0 25px;
 }
 .card-img{
-    height: 220px;
+    height: 100%;
     width: 100%;
+    object-fit: contain;
 }
 .card-icon-circle{
     top: -48px;
@@ -417,24 +429,32 @@ body {
 .card-title{
     font-size: 20px !important;
     color: #474444;
-    margin-top: 11px;
+    margin-top: 12px;
     font-weight: 500 !important;
 }
+
 .card-description{
     font-size: 16px !important;
     font-weight: 300 !important;
     color: #474444;
 }
 }
-
-@media screen and (min-width: 350px) and (max-width: 480px){
+@media screen and (min-width:481px) and (max-width:512px) {
+    .custom-card{
+        width: 360px;
+    }
+    .card-title{
+        width: 95%;
+    }
+}
+@media screen and (min-width: 350px) and (max-width:480px){
     .custom-card{
         width: 340px;
     }
 }
-@media screen and (min-width: 200px) and (max-width: 350px) {
+@media screen and (min-width: 180px) and (max-width: 349px) {
     .custom-card{
-        width: 90%;
+        width: 95%;
     }
 }
 
@@ -479,7 +499,7 @@ body {
 @media (max-width: 992px){
     .custom-swal-popup{
         width: 450px !important;
-        height: 300px !important;
+        min-height: 320px !important;
         padding: 12px 12px !important;
     }
 
@@ -506,9 +526,10 @@ body {
     }
 }
 /* CARD ALERT <=448px */
+
 @media (max-width: 448px){
     .custom-swal-popup{
-        height: 240px !important;
+        height: 220px !important;
         width: 320px !important;
     }
     .swal2-html-container{
@@ -581,7 +602,7 @@ body {
     .contact-container p{
         text-align: left;
         padding: 0;
-        font-size: 1.05rem;
+        font-size: 1.1rem;
         font-weight: 300;
     }
     .button-container{

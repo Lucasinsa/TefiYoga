@@ -3,15 +3,16 @@
         width: 100%;
         height: 60px;
         display: flex;
-        padding: 0px 40px 0px 40px;
         position: fixed;
         top: 0;
         background-color: #ffffff;
         z-index: 10;
     }
     .nav-logo-container{
-        height: 100%;
+        padding-left: 15px;
+        overflow: hidden;
         width: 50%;
+        height: 100%;
         display: flex;
         align-items: center;
         justify-content: start;
@@ -22,6 +23,7 @@
         object-fit: contain;
     }
     .nav-menu-container{
+        padding-right: 15px;
         width: 50%;
         height: 100%;
         display: flex;
@@ -102,16 +104,101 @@
     }
     .nav-menu-list:not(:last-child){
         border-bottom: 1px solid rgba(0,0,0,0.13);
-        margin-top: 10px;
-        margin-bottom: 10px;
+    }
+    .nav-menu-list{
+        padding: 8px 0 8px 0;
     }
     .nav-menu-link{
-        font-size: 14px;
-        font-weight: 400;
+        font-size: 15px;
+        font-weight: 500;
         color: #4B6565;
         opacity: 0.86;
         text-decoration: none;
-        padding: 10px 0 10px 0;
+    }
+}
+@media screen and (min-width: 450px) and (max-width:470px) {
+    .nav-logo-container{
+        padding: 0 0 0 40px;
+    }
+    .nav-menu-container{
+        padding: 0 53px 0 0;
+    }
+}
+@media  screen and (min-width:433px) and (max-width: 449px){
+    .nav-logo-container{
+        padding: 0 0 0 30px;
+    }
+    .nav-menu-container{
+        padding: 0 43px 0 0;
+    }
+
+}
+@media screen and (min-width: 421px) and (max-width:432px) {
+    .nav-logo-container{
+        padding: 0 0 0 18px;
+    }
+    .nav-menu-container{
+        padding: 0 38px 0 0;
+    }
+}
+@media screen and (min-width: 391px) and (max-width: 420px){
+    .nav-logo-container{
+        padding: 0 0 0 11px;
+    }
+    .nav-logo{
+        position: relative;
+        
+    }
+    .nav-menu{
+        position: relative;
+    }
+    .nav-menu-container{
+        padding-right: 33px;
+    }
+}
+@media screen and (min-width: 370px) and (max-width: 390px) {
+    .nav-logo-container{
+        padding: 0 18px 0 0;
+    }
+    .nav-menu-container{
+        padding-right: 18px;
+    }
+}
+@media screen and (min-width:363px) and (max-width: 370px){
+    .nav-logo-container{
+        padding: 0 18px 0 0;
+    }
+    .nav-menu-container{
+        padding: 0 16px 0 0;
+    }
+}
+@media screen and (max-width: 362px){
+    .nav-logo-container{
+        padding: 0 28px 0 0;
+    }
+    .nav-logo{
+        position: relative;
+        right: 10px;
+    }
+    .nav-menu{
+        position: relative;
+        left: 6px;
+    }
+}
+@media screen and (max-width: 347px){
+    .nav-logo{
+        right: 12px;
+    }
+    .nav-menu{
+        left: 5px;
+    }
+}
+@media screen and (max-width: 337px){
+    .nav-logo{
+        right: 15px;
+    }
+    .nav-menu{
+        right: 15px;
     }
 }
 @media (min-width: 992px){
