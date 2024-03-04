@@ -1,5 +1,8 @@
 @media (max-width: 992px) {
     .header{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
         margin-top: 60px;
         position: relative;
     }
@@ -36,7 +39,7 @@
     
     .header-cta-container{
         height: 300px;
-        width: 100%;
+        width: 90%;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -86,12 +89,12 @@
 
 @media (min-width: 641px){
     .header-text-container{
-        background-image: url(../../../public/desk-welcome-bg.png);
+        background-image: url('/desk-welcome-bg.png');
     }
 }
 @media (max-width: 640px){
     .header-text-container{
-        background-image: url('/image-responsive.png');
+        background-image: url('/image-responsive.jpg');
         background-size: cover;
         background-position: center;
     }

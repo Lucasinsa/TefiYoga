@@ -130,7 +130,9 @@ body {
 }
 
 .about-me-container img {
-    background-size: cover;
+    height: 100%;
+    width: 100%;
+    background-size: contain;
     background-position: center;
     transition: transform 0.3s ease;
 }
@@ -253,14 +255,25 @@ body {
         margin-top: 30px;
     }
 }
-@media screen and (min-width: 380px) and (max-width: 992px){
-
+@media screen and (max-width: 992px){
+    .my-classes-text-container{
+        padding: 0 15px 0 15px;
+    }
     .my-classes-container h3{
-        max-width: 359px;
         font-size: 1.2rem !important;
     }
     .my-classes-container p{
-        max-width: 359px;
+        font-size: 1.1rem !important;
+    }
+}
+@media screen and (max-width: 768px){
+    .my-classes-text-container{
+        max-width: 90%;
+    }
+    .my-classes-container h3{
+        font-size: 1.2rem !important;
+    }
+    .my-classes-container p{
         font-size: 1.1rem !important;
     }
 }
@@ -406,23 +419,15 @@ body {
     object-fit: contain;
 }
 .card-icon-circle{
-    top: -48px;
     height: 48px;
     width: 48px;
 }
-.card-icon{
-    top: -54px;
-}
+
 .hand-icon,.hands-up-icon{
-    top: -35px;
     object-fit: contain;
 }
-.hands-up-icon{
-    top: -38px;
-}
+
 .figure-icon{
-    top: -41px;
-    right: 19px;
     object-fit: contain;
 }
 
@@ -439,7 +444,21 @@ body {
     color: #474444;
 }
 }
-@media screen and (min-width:481px) and (max-width:512px) {
+
+@media screen and (min-width:481px) and (max-width:768px) {
+
+    .card-icon-circle{
+        top: -20px;
+    }
+    .card-icon{
+        top: -25px;
+    }
+    .figure-icon{
+        top: -13px;
+    }
+    .hand-icon,.hands-up-icon{
+        top: -10px;
+    }
     .custom-card{
         width: 360px;
     }
@@ -451,10 +470,34 @@ body {
     .custom-card{
         width: 340px;
     }
+    .card-icon-circle{
+        top: -28px;
+    }
+    .card-icon{
+        top: -33px;
+    }
+    .figure-icon{
+        top: -21px;
+    }
+    .hand-icon,.hands-up-icon{
+        top: -18px;
+    }
 }
 @media screen and (min-width: 180px) and (max-width: 349px) {
     .custom-card{
         width: 95%;
+    }
+    .card-icon-circle{
+        top: -38px;
+    }
+    .card-icon{
+        top: -42px;
+    }
+    .figure-icon{
+        top: -31px;
+    }
+    .hand-icon,.hands-up-icon{
+        top: -28px;
     }
 }
 
@@ -589,6 +632,7 @@ body {
         flex-direction: column;
         align-items: center;
         margin-top: 40px;
+        padding: 0 15px 0 15px;
     }
     
     .contact-container h3{
@@ -612,6 +656,16 @@ body {
         width: 320px;
         font-size: 1.1rem;
         height: 45px;
+    }
+}
+@media screen and (max-width: 768px) {
+    .contact-container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .contact-content-container{
+        width: 90%;
     }
 }
 /*--------------------------------*/

@@ -15,7 +15,7 @@ export const PresentationMobile = () => {
             </div>
             <div className="testimony-container">
                 <p className="testimony">
-                ”El yoga es una luz, la cual, una vez<br/> prendida nunca se apaga. Cuanto<br/> mejor es tu práctica, más brillante es<br/> la llama” BKS Iyengar.
+                ”El yoga es una luz, la cual, una vez prendida nunca se apaga. Cuanto mejor es tu práctica, más brillante es la llama” BKS Iyengar.
                 </p>
             </div>
         </div>

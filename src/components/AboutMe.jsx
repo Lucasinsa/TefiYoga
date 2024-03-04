@@ -5,7 +5,7 @@ const AboutMe = () => {
         <>
         <section className="about-me-container" id="about-me">
             <div className="img-container">
-                <img src="/desk-teacher.png" alt="Teacher"/>
+                <img className="desk-teacher" src="/desk-teacher.png" alt="Teacher"/>
             </div>
             <div className="biography-container">
                 <h3>!Hola, soy Tefi!</h3>

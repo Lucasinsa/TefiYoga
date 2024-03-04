@@ -13,23 +13,24 @@ export const AboutMeMobile = () => {
           />
         </div>
         <div className="about-text-container">
-          <h3 className="about-text-title">¡Hola, soy Tefi!</h3>
+          <div className="about-title-container"><h3 className="about-text-title">¡Hola, soy Tefi!</h3></div>
+          
           <p className="about-text-paragraph">
-            Comencé mi práctica de yoga hace 11<br/> años en el “Centro Ananda Yoga”
-            donde<br/> me formé como Profesora de Hatha<br/> Yoga y Yogaterapia,
-            actualmente<br/> practico el método Iyengar con la<br/> intención de
-            expandirme en este largo<br/> recorrido.
+            Comencé mi práctica de yoga hace 11 años en el “Centro Ananda Yoga”
+            donde me formé como Profesora de Hatha Yoga y Yogaterapia,
+            actualmente practico el método Iyengar con la intención de
+            expandirme en este largo recorrido.
           </p>
           <p className="about-text-paragraph">
-            En mis clases cultivamos el cuerpo y la<br/> mente a través de posturas,
-            las cuales se<br/> trabajan de forma evolutiva de acuerdo<br/> a las
-            posibilidades de cada alumno,<br/> haciendo énfasis en el movimiento<br/>
-            consciente, la fuerza vital y la<br/> respiración, lo que va creando una<br/>
+            En mis clases cultivamos el cuerpo y la mente a través de posturas,
+            las cuales se trabajan de forma evolutiva de acuerdo a las
+            posibilidades de cada alumno, haciendo énfasis en el movimiento
+            consciente, la fuerza vital y la respiración, lo que va creando una
             transformación interior.
           </p>
           <p className="about-text-paragraph">
-            Mi misión es compartirte herramientas<br/> de vida consciente que te
-            acompañen<br/> en tu camino de despertar a una vida<br/> más plena, verdadera
+            Mi misión es compartirte herramientas de vida consciente que te
+            acompañen en tu camino de despertar a una vida más plena, verdadera
             y feliz.
           </p>
         </div>

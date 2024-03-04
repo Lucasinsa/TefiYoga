@@ -3,12 +3,11 @@ import CustomCard from "./CustomCard.jsx";
 const MyClasses = () => {
   return (
     <section className="my-classes-container" id="my-classes">
-      <div>
+      <div className="my-classes-text-container">
         <h3 className="my-classes-title">Unite a mis clases</h3>
         <p className="my-classes-paragraph">
-          Despertá al maestro que habita dentro
-          de vos y descubrí tu esencia, aquello
-          que realmente viniste a ser.
+          Despertá al maestro que habita dentro de vos y descubrí tu esencia,
+          aquello que realmente viniste a ser.
         </p>
       </div>
 
