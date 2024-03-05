@@ -9,7 +9,7 @@ export const NavMobile = () => {
   function scrollToAboutSection() {
     const aboutSection = document.getElementById("about");
     const aboutSectionPosition = aboutSection.offsetTop;
-    const offset = 55
+    const offset = 63
     const scrollToPosition = aboutSectionPosition - offset;
     window.scrollTo({
         top: scrollToPosition,

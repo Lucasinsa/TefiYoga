@@ -134,12 +134,9 @@ body {
     width: 100%;
     background-size: contain;
     background-position: center;
-    transition: transform 0.3s ease;
+    
 }
 
-.about-me-container img:hover {
-    transform: scale(1.06)
-}
 
 .img-container {
     overflow: hidden;
@@ -408,6 +405,8 @@ body {
 .custom-card{
     width: 320px;
     margin: 0;
+    transition: none;
+    transform: none;
 }
 
 .card-container-info{
