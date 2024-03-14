@@ -394,11 +394,20 @@ body {
     font-size: 14px;
     font-weight: 300;
 }
-/* @media (min-width: 1461px){
+@media (min-width: 1461px){
     .cards-container{
-        justify-content: space-around;
+        justify-content: space-between;
     }
-} */
+}
+@media (min-width: 1566px){
+    .cards-container{
+        padding-right: 105px;
+    }
+    .cards-container .custom-card:last-child {
+        margin-right: 0px;
+    }
+
+}
 
 /* CARD <= 992px */
 @media (max-width: 992px){
