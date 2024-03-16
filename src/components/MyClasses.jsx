@@ -44,11 +44,11 @@ const MyClasses = () => {
           title="Mis talleres de Yoga y Meditación"
           photo="/card-img-3.png"
           icon="/figure-vector.svg"
-          description="Sumérgete en un viaje hacia tu esencia con mis talleres cuidadosamente diseñados para ti. Únete y descubre el poder de ser quien realmente quieres."
+          description="Sumergite en un viaje hacia tu esencia con mis talleres cuidadosamente diseñados para vos. Unite y descubrí el poder de ser quien realmente querés."
           color="#B68B41"
           className="figure-icon"
           wppIcon= "/wpp-yellow.svg"
-          wppText="Para más información sobre mis talleres, ¡contáctame!"
+          wppText="Para más información sobre mis talleres, ¡contactame!"
         />
       </div>
     </section>
