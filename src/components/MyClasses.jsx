@@ -27,7 +27,7 @@ const MyClasses = () => {
           placeIcon="/place-pink.svg"
         />
         <CustomCard
-          title="Yoga principiante/intermedio"
+          title="Yoga intermedio"
           photo="/card-img-2.png"
           icon="/hands-up-vector.svg"
           description="La meta principal del yoga es la realización del Sí-mismo o la elevación del cuerpo y de la mente hacia el alma."
@@ -41,18 +41,14 @@ const MyClasses = () => {
           placeIcon="/place-green.svg"
         />
         <CustomCard
-          title="Taller: Yoga y energía femenina"
+          title="Mis talleres de Yoga y Meditación"
           photo="/card-img-3.png"
           icon="/figure-vector.svg"
-          description="Un taller para despertar tu energía creativa y reencontrarte con vos misma a través de un viaje de autoconocimiento."
-          days="Día: Sábado 9 de marzo "
-          horary="Horario: A confirmar"
-          place="Lugar: “Habito Gym” Pejerrey 1290 - Pinamar"
+          description="Sumérgete en un viaje hacia tu esencia con mis talleres cuidadosamente diseñados para ti. Únete y descubre el poder de ser quien realmente quieres."
           color="#B68B41"
           className="figure-icon"
-          dayIcon="/calendar-yellow.svg"
-          relojIcon="/reloj-yellow.svg"
-          placeIcon="/place-yellow.svg"
+          wppIcon= "/wpp-yellow.svg"
+          wppText="Para más información sobre mis talleres, ¡contáctame!"
         />
       </div>
     </section>

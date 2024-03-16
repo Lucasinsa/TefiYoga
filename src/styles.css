@@ -116,6 +116,12 @@ body {
     object-fit: cover;
 }
 
+@media (min-width: 992px){
+    .presentation-text {
+        left: 62px;
+    } 
+}
+
 /*--------------------------------*/
 /* ABOUT ME                       */
 /*--------------------------------*/
@@ -136,7 +142,6 @@ body {
     background-position: center;
     
 }
-
 
 .img-container {
     overflow: hidden;
@@ -166,6 +171,13 @@ body {
     font-size: 18px;
     opacity: 0.6;
 }
+
+@media (min-width: 992px) {
+    .about-me-container {
+        padding-left: 62px;
+    }
+}
+
 /* <= 992px (md breakpoint) */
 @media (max-width: 992px){
 .about-me-container{
@@ -205,6 +217,7 @@ body {
     display: flex;
     flex-wrap: wrap;
 }
+
 /* <= 992px  */
 @media (max-width: 992px){
     .my-classes-container{
@@ -235,6 +248,12 @@ body {
     }
 }
 
+
+@media screen and (min-width: 992px) and (max-width: 1249px) {
+    .my-classes-title, .my-classes-paragraph, .cards-container {
+        padding-left: 0px !important;
+    }
+}
 /*-- <= 1349px --*/
 @media screen and (min-width: 992px) and (max-width: 1349px) {
     .my-classes-container h3 , .my-classes-container > p {
@@ -251,7 +270,27 @@ body {
     .cards-container > div:last-child {
         margin-top: 30px;
     }
+
+    /* .my-classes-title, .my-classes-paragraph, .cards-container {
+        padding-left: 0px !important;
+    } */
+
+    .my-classes-container p {
+        margin-right: 0px;
+    }
 }
+
+/*-- >= 1350px --*/
+@media (min-width: 1350px) {
+    .my-classes-title, .my-classes-paragraph, .cards-container {
+        padding-left: 62px;
+    }
+
+    .my-classes-container h3, .my-classes-container p {
+        padding-left: 62px;
+    }
+}
+
 @media screen and (max-width: 992px){
     .my-classes-text-container{
         padding: 0 15px 0 15px;
@@ -366,6 +405,14 @@ body {
     object-fit: contain;
     place-self: start;
 }
+
+.wpp-icon{
+    height: 16px;
+    width: 18px;
+    object-fit: contain;
+    place-self: start;
+    margin-top: 5px;
+}
 .card-container-info {
     padding-left: 25px;
     padding-top: 40px;
@@ -401,7 +448,7 @@ body {
 }
 @media (min-width: 1566px){
     .cards-container{
-        padding-right: 105px;
+        padding-right: 62px;
     }
     .cards-container .custom-card:last-child {
         margin-right: 0px;
@@ -526,7 +573,7 @@ body {
     }
     
     .card-container-info p {
-        padding-right: 10px;
+        padding-right: 17px;
     }
     
     .card-container-info > p {
@@ -547,11 +594,43 @@ body {
         }
     }
     
-    @media screen and (min-width: 1350px) and (max-width: 1460px) {
-        .cards-container > div:last-child {
-            margin-top: 30px;
+
+    @media (min-width: 1250px) and (max-width: 1350px) {
+        .my-classes-paragraph {
+            text-align: left;
+            padding-left: 62px !important;
+
         }
-    } 
+        .my-classes-title {
+            text-align: left !important;
+            padding-left: 62px !important;
+            margin: 0px !important;
+
+        }
+        .custom-card {
+            width: 363px;
+        }
+        .cards-container {
+            justify-content: left !important;
+            padding-left: 62px;
+        }
+        .cards-container > div:last-child {
+            margin-top: 0px;
+        }
+    }
+
+    @media (min-width: 1350px) and (max-width: 1417px) {
+        .custom-card {
+            width: 397px;
+        }
+        .cards-container {
+            justify-content: none;
+            padding-left: 62px;
+        }
+        .cards-container > div:last-child {
+            margin-top: 0px;
+        }
+    }
 
 /*--------------------------------*/
 /* CARD ALERT                     */
