@@ -8,6 +8,18 @@ body {
     scroll-behavior: smooth;
 }
 
+body.modal-open {
+    overflow: hidden;
+    position: fixed;
+    width: 100%;
+}
+
+@media screen and (max-width: 992px) {
+    html {
+        overflow-y: scroll !important;
+    }
+}
+
 /*----------------------------------*/
 /* NAVBAR                           */
 /*----------------------------------*/

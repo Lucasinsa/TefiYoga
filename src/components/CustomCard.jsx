@@ -43,6 +43,7 @@ const CustomCard = ({
       padding: "4em",
       width: "50%",
       customClass: {
+        container: "custom-swal-container",
         popup: "custom-swal-popup",
         title: "custom-swal-title",
         confirmButton: "custom-swal-button",
@@ -50,7 +51,7 @@ const CustomCard = ({
       },
       preConfirm: () => {
         handleWhatsAppButtonClick();
-      },
+      }
     });
   };
 
